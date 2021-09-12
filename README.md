@@ -7,7 +7,7 @@ probing syntactic uncertainty through generation", to appear in Proc. BlackboxNL
 
 ## Content
 
-- `data/`: prompts from sentence pairs (see `data/README.md`); NP/S, NP/Z data from [Grodner et al., (2003)](https://link.springer.com/article/10.1023/A:1022496223965); Noun/Verb data from [Frazier and Rayner, (1986)](https://www.sciencedirect.com/science/article/abs/pii/0749596X87901379)
+- `data/`: prompts from sentence pairs (see `data/README.md`); NP/S, NP/Z data from [Grodner et al., (2003)](https://link.springer.com/article/10.1023/A:1022496223965); Noun/Verb data from [Frazier and Rayner, (1987)](https://www.sciencedirect.com/science/article/abs/pii/0749596X87901379)
 - `src/`: code to generate completions from pairs, parse them and extract interpretations
 
 ## Instructions
