@@ -80,8 +80,7 @@ def get_interpretation(tokens, parse, pos, locus_ambiguity, data ='NP-S', with_p
         parse_type = parse_type_convert[parse_type]
         detailed = parse_type
         # If after post-locus cue: check if this is embedded in the subordinate close (not root, and with comma - not followed by conjunction - before root)
-        if post_disambiguation:
-            label_disambiguator = parse[index_disambiguator]
+        if with_postlocus_cue:
             if parse[index_ambig_word +1] in ['cop', 'ccomp', 'parataxis']:
                 indices_comma = [i for i, val in enumerate(tokens) if val == ',']
                 for idx_comma in indices_comma:
